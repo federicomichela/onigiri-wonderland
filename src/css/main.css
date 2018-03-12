@@ -1,0 +1,51 @@
+body {
+    font-family: helvetica, verdana, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+}
+
+.button {
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #666;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ok h1 {
+    color: green;
+}
+
+.button.lampOff {
+    background-color: #ff0000;
+}
+
+#pixiContainer {
+    padding: 0;
+    margin: 0;
+}
